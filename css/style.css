@@ -626,6 +626,56 @@ footer{
         margin: 94px 10px 0 0;
     }
 }
+@media screen and (max-width: 900px){
+    .media .media_buttons{
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .media .media_buttons button{
+        margin: 20px 0 0 0;
+    }
+    .summit_task .yulia_valerievna{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 680px){
+    .summit_task .yulia_valerievna .name {
+        width: 490px;
+        padding: 3px 0 0 95px;
+    }
+    .summit_task .yulia_valerievna .name h3{
+        font-size: 23px;
+    }
+    .summit_task .oksana_andreevna,
+    .summit_task .yulia_valerievna{
+        margin: 119px 0 0 10%;
+    }
+    .summit_task .oksana_andreevna p,
+    .summit_task .olga_urievna p{
+        margin: 69% 0 0 0;
+    }
+    .summit_task .oksana_andreevna .photo,
+    .summit_task .olga_urievna .photo {
+        top: 51px;
+        left: 135px;
+        z-index: 1;
+    }
+    .header_content {
+        padding: 16% 0 0 10%;
+    }
+    .format_summit .format_subtitle {
+        padding: 15px 0 0 10px;
+    }
+    .format_summit .time_of_summit p {
+        font-size: 24px;
+    }
+    .summit_task .summit_discussion ul li {
+        font-size: 14px;
+    }
+    .photo {
+        top: 40px;
+    }
+}
 @media screen and (max-width: 420px){
     .header_img img{
         width: 100%;
@@ -681,7 +731,7 @@ footer{
     }
     .summit_task .yulia_valerievna .name{
         width: 100%;
-        padding: 0 0 0 7px;
+        padding: 3px 0 0 7px;
     }
     .summit_task .yulia_valerievna .name h3{
         font-size: 23px;
@@ -698,7 +748,7 @@ footer{
     .summit_task .oksana_andreevna p,
     .summit_task .olga_urievna p,
     .summit_task .olga_vladimirovna  p{
-        padding: 240px 0 0 20px;
+        padding: 0 0 0 20px;
     }
     
     .summit_task .line_decor_two{
@@ -778,7 +828,7 @@ footer{
         padding: 0 0 0 15px;
     }
     .summit_task .oksana_andreevna p, .summit_task .olga_urievna p, .summit_task .olga_vladimirovna p {
-        padding: 240px 0 0 15px;
+        padding: 0 0 0 15px;
     }
     .format_summit .format_subtitle p {
         font-size: 22px;
