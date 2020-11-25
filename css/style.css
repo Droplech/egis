@@ -191,10 +191,10 @@ header{
     height: 100%;
 }
 
-.summit_task .summit_chairman .arrow_right{
+.summit_task  .arrow_right{
     position: absolute;
-    right: -484px;
-    top: -11%;
+    right: 0;
+    top: 20%;
 }
 .summit_task .summit_chairman .rank{
     position: absolute;
@@ -359,7 +359,7 @@ footer{
         width: 1560px;
     }
     .summit_task .summit_chairman .arrow_right{
-        right: -372px;
+        right: -364px;
     }
     
 }
@@ -436,9 +436,7 @@ footer{
     }
 }
 @media screen and (max-width: 1280px){
-    .summit_task .summit_chairman .arrow_right {
-        right: -164px;
-    }
+   
     .summit_task .summit_discussion {
         width: 1140px;
         padding: 2% 0 0 4%;
@@ -459,6 +457,10 @@ footer{
     .format_summit .format_subtitle {
         width: 1155px;
     }
+    .summit_task .arrow_right {
+        height: 200px;
+        top: 398px;
+    }
 }
 @media screen and (max-width: 1024px){
     .summit_task .summit_discussion{
@@ -471,9 +473,7 @@ footer{
     .summit_task .summit_discussion ul li{
         font-size: 21px;
     }
-    .summit_task .summit_chairman .arrow_right {
-        right: -44px;
-    }
+   
     .format_summit .format_subtitle {
         width: 90%;
     }
@@ -537,6 +537,11 @@ footer{
     .media .video .arrow{
         margin: 6% 15px 0 0;
     }
+    .summit_task .arrow_right {
+        height: 220px;
+        top: 335px;
+        z-index: 1;
+    }
 
 }
 
@@ -554,6 +559,7 @@ footer{
     .summit_task .arrow_decor_prev,
     .summit_task .summit_discussion .img_discussion,
     .summit_task .summit_chairman .arrow_right,
+    .summit_task .arrow_right,
     .media .video .arrow,
     .summit_task .line_dekor{
         display: none;
