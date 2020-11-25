@@ -1,0 +1,745 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Gotham Pro';
+}
+h3,p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+header{
+    height: 403px;   
+}
+.header_content{
+    height: 100%;
+    background-image: url("../img/header/Баннер\ KV.png");
+    background-position-x: 50%;
+    padding: 6% 0 0 38%;
+}
+.header_content .header_txt{
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    margin: 30px 0 0 0;
+}
+.header_content .header_txt div h3{
+    font-weight: 700;
+    font-size: 37px;
+    color: #fff;
+}
+.header_content .header_txt .date{
+    margin: 0 0 0 20px;
+}
+.header_content .header_txt div{
+    text-align: center;
+    position: relative;
+}
+.header_content .header_txt div p{
+    font-weight: 300 ;
+    font-size: 15px;
+    color: #fff;
+}
+.header_content .header_txt div img{
+    position: absolute;
+    left: -4px;
+    top: 30px;
+}
+
+.media{
+    margin: 26px 0 0 0;
+}
+.media .video{
+    display: flex;
+}
+
+.media .video .video_content{
+    width: 934px;
+    height: 525px;
+    margin: 0 auto;
+}
+.media .video .arrow{
+    margin: 10% 0 0 0;
+}
+.media .media_buttons{
+    width: 977px;
+    margin: 13px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.media .media_buttons button{
+    width: 240px;
+    height: 61px;
+    border: none;
+    outline: none;
+    background: none;
+    background-image: url("../img/media/оrange.png");
+    padding: 0;
+    cursor: pointer;
+}
+
+.media .media_buttons button h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+.media .media_buttons button p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.media .media_buttons button:hover{
+    background-image: url("../img/media/yellow.png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.media .media_buttons button:active{
+    background-image: url("../img/media/blue.png");
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.summit_task{
+    margin: 32px 0 0 0;
+    height: auto;
+    padding: 0 0 80px 0;
+    background-color: #004288;
+    position: relative;
+}
+
+.summit_task .line_dekor{
+    position: absolute;
+    right: 0;
+    top: 103px;
+}
+.summit_task .arrow_decor_next{
+    position: absolute;
+    left: 0;
+    top: 43%;
+}
+.summit_task .arrow_decor_prev{
+    position: absolute;
+    right: 0;
+    top: 76%;
+}
+.summit_task .line_decor_two{
+    position: absolute;
+    left: 0;
+    top: 83%;
+}
+.summit_task .container{
+    width: 100%;
+}
+.summit_task .summit_title{
+    padding: 14px 0 0 24%;
+}
+
+.summit_task .summit_discussion{
+    width: 1600px;
+    height: 256px;
+    background-image: url("../img/sammit/Vector.png");
+    background-repeat: round;
+    padding: 2% 0 0 24%;
+    /* position: relative; */
+}
+.summit_task .summit_discussion ul li{
+    display: flex;
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+}.summit_task .summit_discussion ul > li + li{
+    margin: 20px 0 0 0;
+}
+.summit_task .summit_discussion ul li .li_line{
+    height: 2px;
+    width: 38px;
+    background-color: #FBBA01;
+    margin: 14px  13px 0 0;
+}
+.summit_task .summit_discussion .img_discussion{
+    position: absolute;
+    top: 64px;
+    right:0;
+}
+.summit_task .summit_chairman{
+    display: flex;
+    margin: 92px auto 0 auto;
+    width: 935px;
+    position: relative;
+}
+.photo{
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: -105px;
+    top: -10px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.summit_task .summit_chairman .arrow_right{
+    position: absolute;
+    right: -484px;
+    top: -11%;
+}
+.summit_task .summit_chairman .rank{
+    position: absolute;
+    top: -39px;
+    left: 123px;
+}
+.summit_task .summit_chairman .text{
+    color: #fff;
+    border-top: 2px solid #FDE201;
+    border-bottom: 2px solid #FDE201;
+    padding: 19px 0 19px 100px;
+    margin: 0 0 0 23px ;
+}
+.summit_task .summit_chairman .text p{
+    font-weight: 300;
+    font-size: 21px;
+}
+.summit_task .summit_chairman .text h3{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px 0;
+}
+
+.summit_task .summit_moderators{
+    width: 94%;
+    height: 120px;
+    background-image: url("../img/sammit/Vector\ \(3\).png");
+    background-repeat: round;
+    margin: 64px 0 0 0;
+    padding: 1.7% 0 0 45%;
+}
+.summit_task .yulia_valerievna{
+    width: 700px;
+    margin: 96px 0 0 20%;
+    position: relative;
+    
+}
+/* .summit_task .yulia_valerievna .photo{
+    top: -35px;
+    left: -130px;
+} */
+
+.summit_task .yulia_valerievna .name{
+    width: 540px;
+    height: 34px;
+    
+    background-image: url("../img/sammit/valerievna_name.png");
+    background-repeat: round;
+    padding: 0 0 0 95px;
+}
+.summit_task .yulia_valerievna .name h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+}
+.summit_task .yulia_valerievna  p{
+    font-weight: 300;
+    font-size: 21px;
+    color: #fff;
+    padding: 0 0 0 95px;
+    margin: 7px 0 0 0;
+}
+.summit_task .oksana_andreevna{
+    position: relative;
+    margin: 119px 0 0 38%;
+}
+.summit_task .oksana_andreevna .photo{
+    top: -35px;
+    left: -130px;
+    z-index: 1;
+}
+
+
+.summit_task .olga_urievna{
+    position: relative;
+}
+.summit_task .olga_urievna .photo{
+    top: -35px;
+    left: -130px;
+
+}
+
+
+.summit_task .olga_vladimirovna .name{
+    padding: 0 0 0 69px;
+}
+.summit_task .olga_vladimirovna .photo{
+    left: -150
+}
+.format_summit{
+    padding: 53px 0 25px 0;
+    
+}
+.format_summit .format_summit_content{
+    color: #004288;
+}
+.format_summit .format_title{
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0 0 0 102px;
+}
+.format_summit .format_subtitle{
+    width: 1380px;
+    height: 106px;
+    background-image: url("../img/sammit/four_version.png");
+    background-repeat: round;
+    margin: 10px 0 0 0;
+    padding: 30px 0 0 102px;
+}
+
+.format_summit .format_subtitle p{
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+}
+.format_summit .time_of_summit{
+    padding: 0 0 0 102px;
+    margin: 34px 0 0 0;
+}
+.format_summit .time_of_summit h3{
+    font-weight: 900;
+    font-size: 35px;
+}
+.format_summit .time_of_summit p{
+    font-weight: 400;
+    font-size: 26px;
+    margin: 5px 0 0 0;
+}
+.format_summit .time_of_summit p a{
+    font-weight: 900;
+    text-decoration: none;
+    color: #004288;
+}
+
+
+
+footer{
+    height: 224px;
+    background-color: #004288;
+}
+
+.footer_content{
+    height: 100%;
+    padding: 15px 0 0 102px;
+    display: flex;
+    
+}
+.footer_content .footer_txt p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 26px;
+    
+}
+.footer_content .footer_txt > p + p{
+    margin: 19px 0 0 0;
+}
+.footer_content .footer_img{
+    margin: 2% 0 0 35%;
+}
+@media screen and (max-width: 1680px){
+    .summit_task .summit_discussion{
+        width: 1560px;
+    }
+    .summit_task .summit_chairman .arrow_right{
+        right: -372px;
+    }
+    
+}
+@media screen and (max-width: 1440px){
+    .container{
+        width: 100%;
+    }
+    .summit_task .summit_discussion{
+        width: 1310px;
+        padding: 2% 0 0 14%;
+    }
+    .summit_task .summit_title {
+        padding: 14px 0 0 18%;
+    }
+    .summit_task .summit_chairman .arrow_right {
+        right: -244px;
+        z-index: 1;
+    }
+    .media .video .arrow{
+        margin: 10% 39px 0 0;
+    }
+    .media .video .arrow_prev{
+        margin: 10% 0 0 39px;
+    }
+    .summit_task .oksana_andreevna{
+        margin: 119px 0 0 49%;
+    }
+    .summit_task .olga_urievna .photo{
+        z-index: 1;
+    }
+    .footer_content .footer_txt{
+        margin: 0 21% 0 0;
+    }
+    .footer_content .footer_img{
+        margin: 36px 0 0 0;
+    }
+    .header_content{
+        padding: 8% 0 0 34%;
+    }
+    .summit_task .summit_moderators {
+        width: 90%;
+        padding: 2% 0 0 38%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .summit_task .summit_chairman .arrow_right{
+        right: -207px;
+    }
+    .format_summit .format_subtitle {
+        width: 1250px;
+    }
+    .footer_content .footer_txt {
+        margin: 0 17% 0 0;
+    }
+    .summit_task .oksana_andreevna {
+        margin: 119px 0 0 47%;
+    }
+    .summit_task .summit_moderators {
+        width: 90%;
+        padding: 2% 0 0 38%;
+    }
+    .media .video .arrow_prev {
+        margin: 10% 0 0 15px;
+    }
+    .media .video .arrow {
+        margin: 10% 15px 0 0;
+    }
+    .summit_task .summit_discussion {
+        width: 1250px;
+        padding: 2% 0 0 8%;
+    }
+    .summit_task .summit_title {
+        padding: 14px 0 0 12%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .summit_task .summit_chairman .arrow_right {
+        right: -164px;
+    }
+    .summit_task .summit_discussion {
+        width: 1140px;
+        padding: 2% 0 0 4%;
+    }
+    .summit_task .summit_title {
+        padding: 14px 0 0 8%;
+    }.media .video .video_content {
+        width: 760px;
+        height: 430px;
+    
+    }
+    .summit_task .oksana_andreevna {
+        margin: 119px 0 0 40%;
+    }
+    .footer_content .footer_txt {
+        margin: 0 8% 0 0;
+    }
+    .format_summit .format_subtitle {
+        width: 1155px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .summit_task .summit_discussion{
+        height: 197px;
+        width: 90%;
+    }
+    .summit_task .summit_discussion .img_discussion{
+        height: 198px;
+    }
+    .summit_task .summit_discussion ul li{
+        font-size: 21px;
+    }
+    .summit_task .summit_chairman .arrow_right {
+        right: -44px;
+    }
+    .format_summit .format_subtitle {
+        width: 90%;
+    }
+    .summit_task .oksana_andreevna {
+        margin: 119px 0 0 20%;
+    }
+    .format_summit .format_subtitle{
+        padding: 15px 0 0 102px;
+    }
+    .summit_task .summit_moderators {
+        width: 90%;
+        padding: 3% 0 0 37%;
+    }
+    .summit_task .summit_chairman{
+        width: 66%;
+    }
+    .photo{
+        top: -10px;
+    }
+    .summit_task .summit_chairman .arrow_right {
+        right: -173px;
+    }
+    .summit_task .summit_chairman .text p {
+        font-size: 16px;
+    }
+    .footer_content {
+        padding: 15px 0 0 50px;
+    }
+    .format_summit .time_of_summit{
+        padding: 0 0 0 50px;
+    }
+    .footer_content .footer_txt{
+        margin: 0 30px 0 0;
+    }
+    .footer_content .footer_txt p{
+        font-size: 23px;
+    }
+    .footer_content .footer_img{
+        width: 200px;
+    }
+    .footer_content .footer_img img{
+        width: 100%;
+    
+    }
+    .format_summit .format_subtitle{
+        padding: 15px 0 0 50px;
+    }
+    .format_summit .format_title{
+        margin: 0 0 0 50px;
+    }
+    .header_content {
+        padding: 12% 0 0 26%;
+    }
+    .media .video .video_content {
+        width: 630px;
+        height: 350px;
+    }
+    .media .video .arrow_prev{
+        margin: 6% 0 0 15px;
+    }
+    .media .video .arrow{
+        margin: 6% 15px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .media .media_buttons{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+    .media .media_buttons button{
+        margin: 25px 0 0 0;
+    }
+    .summit_task .oksana_andreevna{
+        z-index: 1;
+    }
+    .summit_task .arrow_decor_prev,
+    .summit_task .summit_discussion .img_discussion,
+    .summit_task .summit_chairman .arrow_right,
+    .media .video .arrow,
+    .summit_task .line_dekor{
+        display: none;
+    }
+    .summit_task .yulia_valerievna{
+        width: 77%;
+    }
+    .media .video .video_content {
+        width: 100%;
+        height: 430px;
+    }
+    .header_content {
+        padding: 16% 0 0 20%;
+    }
+    .summit_task .summit_discussion{
+        width: 100%;
+        padding: 4% 0 0 4%;
+    }
+    .summit_task .summit_discussion ul li {
+        font-size: 17px;
+    }
+    .summit_task .summit_chairman {
+        width: 58%;
+    }
+    .photo {
+        top: 16px;
+    }
+    .summit_task .summit_moderators {
+        width: 100%;
+        padding: 4% 0 0 37%;
+        
+    }
+    footer{
+        height: auto;
+    }
+    .footer_content {
+        padding: 15px 0 15px 50px;
+    }
+    .footer_content .footer_img {
+        margin: 94px 10px 0 0;
+    }
+}
+@media screen and (max-width: 420px){
+    .header_img img{
+        width: 100%;
+    }
+    .media .video .video_content {
+        width: 100%;
+        height: 230px;
+    }
+    .header_content .header_txt{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .media .media_buttons{
+        width: 60%;
+    }
+    .summit_task .summit_title{
+        width: 300px;
+    }
+    .summit_task .summit_title img{
+        width: 100%;
+    }
+    .summit_task .summit_moderators {
+        width: 100%;
+        padding: 3% 0 0 27%;
+        height: 70px;
+    }
+    .summit_task .summit_moderators img{
+        width: 212px;
+    }
+    .summit_task .summit_discussion{
+        height: 260px;
+    }
+    .summit_task .summit_chairman{
+        width: 100%;
+    }
+    .summit_task .summit_chairman .text{
+        padding: 225px 0 19px 20px;
+        margin: 0;
+    }
+    .photo {
+        left: 25%;
+    }
+    .summit_task .summit_chairman .rank 
+    {
+        left: 20px;
+    }
+    .summit_task .yulia_valerievna{
+        margin: 96px 0 0 0;
+        width: 100%;
+    }
+    .summit_task .arrow_decor_next{
+        display: none;
+    }
+    .summit_task .yulia_valerievna .name{
+        width: 100%;
+        padding: 0 0 0 7px;
+    }
+    .summit_task .yulia_valerievna .name h3{
+        font-size: 23px;
+    }
+    .summit_task .oksana_andreevna .photo,
+    .summit_task .olga_urievna .photo {
+        top: 60px;
+        left: 100px;
+        z-index: 1;
+    }
+    .summit_task .yulia_valerievna p{
+        padding: 0 0 0 20px;
+    }
+    .summit_task .oksana_andreevna p,
+    .summit_task .olga_urievna p,
+    .summit_task .olga_vladimirovna  p{
+        padding: 240px 0 0 20px;
+    }
+    
+    .summit_task .line_decor_two{
+        display: none;
+    }
+    .format_summit .format_subtitle{
+        width: 100%;
+        padding: 24px 0 0 20px
+    }
+    .format_summit .format_subtitle p{
+        font-size: 25px;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+    }
+    .footer_content .footer_img{
+        margin: 50px 0 0 60px;
+    }
+    .format_summit .time_of_summit p{
+        font-size: 22px;
+    }
+    .format_summit .time_of_summit{
+        padding: 0 0 0 20px;
+    }
+    .format_summit .format_title{
+        margin: 0 0 0 20px;
+    }
+    .header_content .header_img{
+        width: 300px;
+    }
+    .header_content .header_img img{
+        width: 100%;
+    }
+    .header_content {
+        padding: 16% 0 0 15%;
+    }
+    .header_content .header_txt {
+        padding: 0 0 0 30px;
+    }
+}
+@media screen and (max-width: 375px){
+    .summit_task .yulia_valerievna .name h3 {
+        font-size: 20px;
+    }
+    .media .media_buttons {
+        width: 65%;
+    }
+    .header_content {
+        padding: 16% 0 0 10%;
+    }
+    .summit_task .summit_discussion ul li {
+        font-size: 16px;
+    }
+    .summit_task .summit_chairman .text {
+        padding: 225px 0 19px 10px;
+    }
+    .summit_task .summit_moderators {
+        padding: 3% 0 0 22%;
+        
+    }
+    .summit_task .yulia_valerievna p {
+        padding: 0 0 0 15px;
+    }
+    .summit_task .oksana_andreevna p, .summit_task .olga_urievna p, .summit_task .olga_vladimirovna p {
+        padding: 240px 0 0 15px;
+    }
+    .format_summit .format_subtitle p {
+        font-size: 22px;
+    }
+    .format_summit .format_title {
+        font-size: 30px;
+        
+    }
+}
