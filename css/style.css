@@ -640,6 +640,9 @@ footer{
     .media .video .video_content {
         height: 320px;
     }
+    .summit_task .summit_discussion ul li {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 680px){
     .summit_task .yulia_valerievna .name {
@@ -722,7 +725,7 @@ footer{
         width: 100%;
     }
     .summit_task .summit_chairman .text{
-        padding: 225px 0 19px 20px;
+        padding: 260px 0 19px 20px;
         margin: 0;
     }
     .photo {
@@ -803,6 +806,9 @@ footer{
     }
     .header_content .header_txt .time{
         margin: 10px 0 0 0;
+    }
+    .summit_task .summit_discussion ul{
+        width: 88%;
     }
 }
 @media screen and (max-width: 410px){
