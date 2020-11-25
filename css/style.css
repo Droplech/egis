@@ -709,10 +709,13 @@ footer{
         width: 100%;
     }
     .header_content {
-        padding: 16% 0 0 15%;
+        padding: 16% 0 0 14%;
     }
     .header_content .header_txt {
         padding: 0 0 0 30px;
+    }
+    .header_content .header_txt div h3{
+        margin: 0 0 6px 0;
     }
 }
 @media screen and (max-width: 375px){
